@@ -30,8 +30,7 @@ systemctl set-default graphical.target
 systemctl enable sddm.service
 
 pacman-key --init
-pacman-key --populate archlinux carli
-pacman-key --lsign-key 7B01FA17CA801345
+pacman-key --populate archlinux
 
 groupscarli="adm,audio,disk,floppy,log,network,optical,rfkill,storage,video,wheel,sys"
 useradd -m -g users -G $groupscarli -s /bin/bash liveuser

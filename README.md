@@ -1,4 +1,4 @@
-# ArcoLinuxIso Carli-9
+# Arch Linux Calamares Installer or ALCI
 
 Start building your own carli version with 
 

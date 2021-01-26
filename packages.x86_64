@@ -104,29 +104,12 @@ xfsprogs
 xl2tpd
 zsh
 
-#Carli
-plasma-meta
-#kde-applications-meta
-packagekit-qt5
+#ALCI
 sddm
-bash-completion
-partitionmanager
+
+#desktop
+i3-gaps
 
 #Calamares
 calamares
-carli-calamares-config
-carli-system-installation
-grub
-os-prober
-
-#carli
-carli-keyring
-
-#Software
-git
-base-devel
-yay-bin
-neofetch
-dolphin
-konsole
-kate
+alci-calamares-config
