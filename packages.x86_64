@@ -119,6 +119,7 @@ os-prober
 xterm
 #polkit-gnome
 dex
+bash-completion
 
 #xorg-server
 #xorg-apps
