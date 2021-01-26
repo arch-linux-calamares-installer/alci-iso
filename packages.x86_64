@@ -117,7 +117,6 @@ alci-calamares-config
 grub
 os-prober
 xterm
-#polkit-gnome
 dex
 bash-completion
 
