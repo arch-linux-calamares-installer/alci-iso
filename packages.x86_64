@@ -117,4 +117,15 @@ alci-calamares-config
 grub
 os-prober
 xterm
-polkit-gnome
+#polkit-gnome
+dex
+
+#xorg-server
+#xorg-apps
+#xorg-xinit
+#xterm
+
+#lightdm
+#lightdm-gtk-greeter
+
+#sddm
