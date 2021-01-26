@@ -109,19 +109,10 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 #################                          how to exit, logoff, suspend, ...                        #################
 #####################################################################################################################
 
-#Press Super+x - check toolbar for next choices
-bindsym $mod+x mode "$mode_system"
-
-set $mode_system System (l) logout, (r) reboot, (s) shutdown
-mode "$mode_system" {
-    bindsym l exec --no-startup-id ~/.config/i3/scripts/i3exit.sh logout, mode "default"
-    bindsym r exec --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
-    bindsym s exec --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
-
-    # back to normal: Enter or Escape
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
+bindsym $mod+r systemctl reboot
+bindsym $mod+s systemctl shutdown
+bindsym $mod+x systemctl shutdown
+bindsym $mod+l i3-mesg exit
 
 #####################################################################################################################
 #################                          reload changed configuration                             #################
