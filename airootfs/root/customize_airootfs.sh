@@ -32,8 +32,8 @@ systemctl enable sddm.service
 pacman-key --init
 pacman-key --populate archlinux
 
-groupscarli="adm,audio,disk,floppy,log,network,optical,rfkill,storage,video,wheel,sys"
-useradd -m -g users -G $groupscarli -s /bin/bash liveuser
+groupsalci="adm,audio,disk,floppy,log,network,optical,rfkill,storage,video,wheel,sys"
+useradd -m -g users -G $groupsalci -s /bin/bash liveuser
 passwd -d liveuser
 
 #set permissions

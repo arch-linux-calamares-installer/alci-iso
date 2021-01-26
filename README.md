@@ -1,6 +1,6 @@
 # Arch Linux Calamares Installer or ALCI
 
-Start building your own carli version with 
+Start building your own ALCI version with 
 
 sudo ./build.sh -v
 
