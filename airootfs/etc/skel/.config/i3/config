@@ -33,6 +33,23 @@
 set $mod Mod4
 
 #####################################################################################################################
+#################                          Define the movements keys - variables                    #################
+#####################################################################################################################
+
+
+#This is setup for qwerty
+set $up l
+set $down k
+set $left j
+set $right semicolon
+
+#This is setup for azerty
+#set $up l
+#set $down k
+#set $left j
+#set $right m
+
+#####################################################################################################################
 #################                          Single and Dual screen                                   #################
 #####################################################################################################################
 
@@ -109,10 +126,10 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 #################                          how to exit, logoff, suspend, ...                        #################
 #####################################################################################################################
 
-bindsym $mod+r systemctl reboot
-bindsym $mod+s systemctl shutdown
-bindsym $mod+x systemctl shutdown
-bindsym $mod+l i3-mesg exit
+bindsym $mod+r exec --no-startup-id systemctl reboot
+bindsym $mod+s exec --no-startup-id systemctl shutdown
+bindsym $mod+x exec --no-startup-id systemctl shutdown
+bindsym $mod+l exec --no-startup-id i3-mesg exit
 
 #####################################################################################################################
 #################                          reload changed configuration                             #################
@@ -201,7 +218,6 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 # qwerty/azerty issue for letter z
-bindsym $mod+s layout stacking
 bindsym $mod+z layout tabbed
 bindsym $mod+e layout toggle split
 
