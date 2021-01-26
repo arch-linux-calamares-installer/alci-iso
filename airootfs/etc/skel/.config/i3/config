@@ -130,60 +130,6 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 
 
 
-#####################################################################################################################
-#################                          3 menu's in arcolinux                                     #################
-#####################################################################################################################
-
-# start dmenu
-bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
-
-# gmrun
-bindsym mod1+F2 exec --no-startup-id gmrun
-
-# start xfce-appfinder
-bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
-
-# start rofi full
-bindsym $mod+F11 exec --no-startup-id rofi -show run -fullscreen -font "Noto Sans 13"
-
-# start rofi small
-bindsym $mod+F12 exec --no-startup-id rofi -show run -font "Noto Sans 13"
-
-
-
-#####################################################################################################################
-#################                          how to exit, logoff, suspend, ...                        #################
-#####################################################################################################################
-
-#Backup exit
-#Press ctrl+alt+x - check toolbar for next choices
-bindsym control+mod1+X mode "$mode_system"
-
-set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
-mode "$mode_system" {
-    bindsym k exec --no-startup-id ~/.config/i3/scripts/i3exit.sh lock, mode "default"
-    bindsym l exec --no-startup-id ~/.config/i3/scripts/i3exit.sh logout, mode "default"
-    bindsym u exec --no-startup-id ~/.config/i3/scripts/i3exit.sh suspend, mode "default"
-    bindsym h exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
-    bindsym r exec --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
-    bindsym s exec --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
-
-    # back to normal: Enter or Escape
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-
-
-# ArcoLinux Logout
-bindsym $mod+Shift+e exec --no-startup-id arcolinux-logout
-bindsym $mod+X exec --no-startup-id arcolinux-logout
-
-
-#####################################################################################################################
-#################                          reload changed configuration                             #################
-#####################################################################################################################
-
-
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 
@@ -499,10 +445,11 @@ bindsym control+mod1+w exec --no-startup-id arcolinux-welcome-app
 #ArcoLinux Tweak Tool
 bindsym control+mod1+e exec --no-startup-id arcolinux-tweak-tool
 
-#conky
-bindsym $mod+c exec --no-startup-id conky-toggle
-bindsym control+mod1+Next exec --no-startup-id conky-rotate -n
-bindsym control+mod1+Prior exec --no-startup-id conky-rotate -p
+#Calamares
+bindsym $mod+c exec --no-startup-id pkexec calamares
+bindsym control+mod1+c exec --no-startup-id pkexec calamares
+bindsym mod1+c exec --no-startup-id pkexec calamares
+bindsym control+c exec --no-startup-id pkexec calamares
 
 # terminal
 bindsym $mod+Return exec --no-startup-id xterm;focus
@@ -517,9 +464,6 @@ bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
 
 #settings
 bindsym control+mod1+m exec --no-startup-id xfce4-settings-manager
-
-#catfish
-bindsym control+mod1+c exec --no-startup-id catfish;focus
 
 #arcolinux-logout
 bindsym control+mod1+k exec --no-startup-id arcolinux-logout

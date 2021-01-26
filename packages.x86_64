@@ -105,14 +105,16 @@ xl2tpd
 zsh
 
 #ALCI
+
 sddm
 
-#desktop
 i3-gaps
 
-#Calamares
+
 calamares
 alci-calamares-config
-grub
 
+grub
+prober
 xterm
+polkit-gnome
