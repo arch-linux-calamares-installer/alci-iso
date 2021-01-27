@@ -121,8 +121,8 @@ i3-gaps
 i3status
 
 calamares
-#alci-calamares-config
-alci-calamares-config-dev
+alci-calamares-config
+#alci-calamares-config-dev
 xterm
 dex
 
@@ -138,26 +138,32 @@ os-prober
 ###                    EXTRAS                       ###
 #######################################################
 
-# xorg applications
+##### xorg applications
+
 #xorg-server
 #xorg-apps
 
-# lightdm display manager
+##### lightdm display manager
+
 #lightdm
 #lightdm-gtk-greeter
 
-# sddm display manager
+##### sddm display manager
+
 #sddm
 
-# want to have nmtui to connect to your wireless network via TTY
-# install the package networkmanager on the iso
-# enable after installation
-# sudo systemctl enable NetworkManager
-# and then reboot
+##### want to have nmtui to connect to your wireless network via TTY
+##### install the package networkmanager on the iso
+##### enable after installation
+##### sudo systemctl enable NetworkManager
+##### and then reboot
+
 #networkmanager
 
-# want to have base-devel group
+##### want to have base-devel group
+
 #base-devel
 
-# want to have linux-headers
+##### want to have linux-headers
+
 #linux-headers
