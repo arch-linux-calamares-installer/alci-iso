@@ -130,5 +130,6 @@ bash-completion
 
 #sddm
 
-#to have nmtui install next one on the iso - connect to wireless from TTY
+# to have nmtui
+# install networkmanager on the iso - with nmtui you can connect to wireless from TTY
 #networkmanager
