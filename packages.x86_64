@@ -121,8 +121,8 @@ i3-gaps
 i3status
 
 calamares
-alci-calamares-config
-#alci-calamares-config-dev
+#alci-calamares-config
+alci-calamares-config-dev
 xterm
 dex
 
@@ -141,8 +141,6 @@ os-prober
 # xorg applications
 #xorg-server
 #xorg-apps
-#xorg-xinit
-#xterm
 
 # lightdm display manager
 #lightdm-gtk-greeter
@@ -157,7 +155,7 @@ os-prober
 # and then reboot
 #networkmanager
 
-# want to have base-devel group?
+# want to have base-devel group
 #base-devel
 
 # want to have linux-headers
