@@ -143,6 +143,7 @@ os-prober
 #xorg-apps
 
 # lightdm display manager
+#lightdm
 #lightdm-gtk-greeter
 
 # sddm display manager
