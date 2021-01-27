@@ -1,13 +1,19 @@
 # Arch Linux Calamares Installer or ALCI
 
+Use the correct version for building the iso.
+
+Read the archiso.readme.
+
+Download the content of the github with
+
+git clone https://github.com/arcolinuxiso/alci-iso
+
+Change the content of packages.x86-64 or not.
+
 Start building your own ALCI version with 
 
 sudo ./build.sh -v
 
-To be able to build you install this package
+You will get an iso in the OUT folder.
 
-sudo pacman -S archiso
-
-Do check out the archiso.readme.
-
-Use the correct version of archiso.
+Burn it and use it.
