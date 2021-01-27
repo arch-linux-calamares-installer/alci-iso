@@ -158,3 +158,6 @@ os-prober
 
 # want to have base-devel group?
 #base-devel
+
+# want to have linux-headers
+linux-headers
