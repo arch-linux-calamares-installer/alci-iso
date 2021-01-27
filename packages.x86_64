@@ -129,3 +129,6 @@ bash-completion
 #lightdm-gtk-greeter
 
 #sddm
+
+#to have nmtui install next one on the iso - connect to wireless from TTY
+#networkmanager
