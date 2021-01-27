@@ -122,6 +122,7 @@ i3status
 
 calamares
 alci-calamares-config
+#alci-calamares-config-dev
 xterm
 dex
 
@@ -150,7 +151,7 @@ os-prober
 #sddm
 
 # want to have nmtui to connect to your wireless network via TTY
-# install networkmanager on the iso
+# install the package networkmanager on the iso
 # enable after installation
 # sudo systemctl enable NetworkManager
 # and then reboot
@@ -160,4 +161,4 @@ os-prober
 #base-devel
 
 # want to have linux-headers
-linux-headers
+#linux-headers
