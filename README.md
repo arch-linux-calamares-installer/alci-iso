@@ -22,4 +22,7 @@ Still not sure what to do
 
 Check out the playlist on Youtube
 
+Want to have a /etc/pacman.conf with the repos you like, add it to the the folder /airootfs/etc/
+and it will be on your future system.
+
 https://www.youtube.com/playlist?list=PLlloYVGq5pS4vhYQuLikS8dhDjk6xaiXH
