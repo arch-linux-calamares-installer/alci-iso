@@ -4,7 +4,7 @@ Use the correct version for building the iso.
 
 Read the archiso.readme.
 
-Download the content of the github with
+Download the content of the github with (in terminal)
 
 git clone https://github.com/arcolinuxiso/alci-iso
 
