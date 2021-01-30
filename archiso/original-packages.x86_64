@@ -118,9 +118,8 @@ zsh
 sddm
 
 i3-gaps
-i3status
 
-calamares
+alci-calamares
 alci-calamares-config
 #alci-calamares-config-dev
 xterm
@@ -143,6 +142,8 @@ os-prober
 #xorg-server
 #xorg-apps
 
+
+
 ##### lightdm display manager
 
 #lightdm
@@ -152,6 +153,12 @@ os-prober
 
 #sddm
 
+##### gdm display manager
+
+#gdm
+
+
+
 ##### want to have nmtui to connect to your wireless network via TTY
 ##### install the package networkmanager on the iso
 ##### enable after installation
@@ -160,6 +167,8 @@ os-prober
 
 #networkmanager
 
+
+
 ##### want to have base-devel group
 
 #base-devel
@@ -167,3 +176,29 @@ os-prober
 ##### want to have linux-headers
 
 #linux-headers
+
+
+
+##### want to have a desktop
+
+#test
+#xfce4
+#xfce4-goodies
+
+
+
+##### want to add/use the ArcoLinux repos
+
+#arcolinux-mirrorlist-git
+#arcolinux-keyring
+
+#test
+#arcolinux-wallpapers-git
+
+##### want to add/use the Chaotic repo
+
+#chaotic-mirrorlist
+#chaotic-keyring
+
+#test
+#picom-ibhagwan-git

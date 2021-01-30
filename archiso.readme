@@ -1,6 +1,6 @@
 You can build this iso if you have the right version of Archiso.
 
-Archiso is a package supplied by Arch Linux that is recently undergoing some major changes.
+Archiso is a package supplied by Arch Linux that will always undergo changes.
 
 You can follow up the versions via this link.
 
@@ -9,7 +9,7 @@ https://www.archlinux.org/packages/extra/any/archiso/
 We are now using this version
 
 
-archiso-version=50.1-1
+archiso-version=archiso 50.1-1
 
 
 sudo pacman -Q archiso and you will know your version

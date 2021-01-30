@@ -245,6 +245,9 @@ font pango:Noto Mono Regular 13
 # ALCI launch calamares
 exec --no-startup-id dex /etc/xdg/autostart/calamares.desktop
 
+#Authentication dialog
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 #####################################################################################################################
 #################                          applications keyboard shortcuts                          #################
 #####################################################################################################################
@@ -308,47 +311,4 @@ gaps inner 5
 gaps outer 5
 smart_gaps on
 #smart_borders on
-
-#####################################################################################################################
-#####################################################################################################################
-#####################################################################################################################
-#################                          bar appearance                                           #################
-#####################################################################################################################
-#####################################################################################################################
-#####################################################################################################################
-
-bar {
-
-    height 25
-    workspace_buttons yes
-    font pango:Noto Sans 14
-
-    position top
-    #position bottom
-
-    status_command i3status
-
-    colors {
-        background #2F2F2F
-        statusline #eeeeee
-        separator  #666666
-
-        # colorclass           border  backgr. text
-        focused_workspace     #a9a9a9 #5f676a #eeeeee
-        active_workspace      #a9a9a9 #5f676a #eeeeee
-        inactive_workspace    #a9a9a9 #222222 #a9a9a9
-        urgent_workspace      #a9a9a9 #d42121 #FFFFFF
-        }
-
-    }
-
-    # Window color settings
-    # class                 border  backgr. text    indicator
-    client.focused          #6790EB #6790EB #e5e5e5 #6790EB
-    client.unfocused        #222222 #222222 #aaaaaa #222222
-    client.focused_inactive #222222 #222222 #a9a9a9 #222222
-    client.placeholder      #222222 #222222 #aaaaaa #222222
-    client.urgent           #d42121 #d42121 #f7f7f7 #d42121
-
-    client.background       #242424
 

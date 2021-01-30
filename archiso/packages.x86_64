@@ -1,0 +1,204 @@
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+alsa-utils
+amd-ucode
+arch-install-scripts
+b43-fwcutter
+base
+bind-tools
+brltty
+broadcom-wl
+btrfs-progs
+clonezilla
+crda
+darkhttpd
+ddrescue
+dhclient
+dhcpcd
+diffutils
+dmraid
+dnsmasq
+dosfstools
+edk2-shell
+efibootmgr
+espeakup
+ethtool
+exfatprogs
+f2fs-tools
+fatresize
+fsarchiver
+gnu-netcat
+gpart
+gpm
+gptfdisk
+grml-zsh-config
+haveged
+hdparm
+intel-ucode
+ipw2100-fw
+ipw2200-fw
+irssi
+iwd
+jfsutils
+kitty-terminfo
+lftp
+linux
+linux-atm
+linux-firmware
+livecd-sounds
+lsscsi
+lvm2
+lynx
+man-db
+man-pages
+mc
+mdadm
+memtest86+
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+mtools
+nano
+nbd
+ndisc6
+nfs-utils
+nilfs-utils
+nmap
+ntfs-3g
+nvme-cli
+openconnect
+openssh
+openvpn
+partclone
+parted
+partimage
+ppp
+pptpclient
+reflector
+reiserfsprogs
+rp-pppoe
+rsync
+rxvt-unicode-terminfo
+sdparm
+sg3_utils
+smartmontools
+squashfs-tools
+sudo
+syslinux
+systemd-resolvconf
+tcpdump
+terminus-font
+termite-terminfo
+testdisk
+tmux
+udftools
+usb_modeswitch
+usbutils
+vim
+vpnc
+wireless-regdb
+wireless_tools
+wpa_supplicant
+wvdial
+xfsprogs
+xl2tpd
+zsh
+
+
+# everything above comes from archiso releng folder
+#######################################################
+###                    ALCI                         ###
+#######################################################
+
+#######################################################
+###  PACKAGES THAT ARE REMOVED AFTER INSTALLATION   ###
+###                 CALAMARES CONFIG                ###
+#######################################################
+
+sddm
+
+i3-gaps
+
+alci-calamares
+alci-calamares-config
+#alci-calamares-config-dev
+xterm
+dex
+
+#######################################################
+###      PACKAGES THAT STAY AFTER INSTALLATION      ###
+#######################################################
+
+bash-completion
+grub
+os-prober
+
+#######################################################
+###                    EXTRAS                       ###
+#######################################################
+
+##### xorg applications
+
+#xorg-server
+#xorg-apps
+
+
+
+##### lightdm display manager
+
+#lightdm
+#lightdm-gtk-greeter
+
+##### sddm display manager
+
+#sddm
+
+##### gdm display manager
+
+#gdm
+
+
+
+##### want to have nmtui to connect to your wireless network via TTY
+##### install the package networkmanager on the iso
+##### enable after installation
+##### sudo systemctl enable NetworkManager
+##### and then reboot
+
+#networkmanager
+
+
+
+##### want to have base-devel group
+
+#base-devel
+
+##### want to have linux-headers
+
+#linux-headers
+
+
+
+##### want to have a desktop
+
+#test
+#xfce4
+#xfce4-goodies
+
+
+
+##### want to add/use the ArcoLinux repos
+
+#arcolinux-mirrorlist-git
+#arcolinux-keyring
+
+#test
+#arcolinux-wallpapers-git
+
+##### want to add/use the Chaotic repo
+
+#chaotic-mirrorlist
+#chaotic-keyring
+
+#test
+#picom-ibhagwan-git

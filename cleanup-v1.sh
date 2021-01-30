@@ -1,23 +1,20 @@
-#!/bin/bash
-#set -e
-##################################################################################################################
-# Author 	: 	Erik Dubois
-# Website 	: 	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
+#!/usr/bin/env bash
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
-# change into your name and email.
+# SPDX-License-Identifier: GPL-3.0-or-later
 
-sudo rm -r out/
-sudo rm -r work/
-
-
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
-echo "################################################################"
+echo "################################################################## "
+tput setaf 2
+echo "This file is kept here for continuity with the videos"
+echo "We actually use the script in the folder installation-scripts"
+echo "30 will first clean your cache and then build - downloads all packages"
+echo "40 will reuse your cache and build - no download if you have the packages"
+echo "Use the scripts in the folder installation-scripts instead"
+echo "Do not run the scripts with sudo"
+echo "But run it like this :"
+echo "./30-build-the-iso-the-first-time.sh"
+echo "or"
+echo "./40-build-the-iso-local-again.sh"
+echo "or else your iso will be in the /root folder"
+echo "The clean up is done in the scripts."
+tput sgr0
+echo "################################################################## "
