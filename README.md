@@ -146,6 +146,16 @@ We have added a /etc/pacman-more.conf file to your future system.
 That way we have the ArcoLinux repos and Chaotic repos if we do decide to install it after all.
 Remember to install the mirror and keys.
 
+
+# Tip
+
+Run into issues - remove all packages manually with
+
+sudo pacman -Scc
+
+and ensure they are all gone.
+
+
 # History
 
 The list of packages after a clean installation - no extras
