@@ -115,6 +115,32 @@ Check out the playlist on Youtube
 https://www.youtube.com/playlist?list=PLlloYVGq5pS4vhYQuLikS8dhDjk6xaiXH
 
 
+# Installation process
+
+Is documented on 
+
+https://www.arcolinuxiso.com/arch-linux-calamares-installer/
+
+
+# After installation
+
+Activate the display manager of your choice
+
+`sudo systemctl enable lightdm`
+
+`sudo systemctl enable gdm`
+
+`sudo systemctl enable sddm`
+
+Get the pacman databases in
+
+`sudo pacman -Sy`
+
+or update immediately
+
+`sudo pacman -Syyu`
+
+
 # Arch Linux users
 
 In order to get the keys in from ArcoLinux and Chaotic.
