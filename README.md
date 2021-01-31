@@ -14,11 +14,11 @@ Download the content of the github with (use the terminal)
 
 Only the archiso/pacman.conf will be used to download your packages.
 
-We created several versions of pacman.conf to be able to switch fast.
+We created several versions of pacman.conf to be able to switch quickly.
 
 In order to avoid future questions we activated multilib by default on all except no-extra-pacman.conf.
 
-In order to switch fast we copy/paste the content of the other files in archiso/pacman.conf.
+In order to switch quickly we copy/paste the content of the other files in archiso/pacman.conf.
 
     arcolinux-chaotic-pacman.conf
         contains both ArcoLinux and chaotic-aur
