@@ -74,7 +74,7 @@ If you plan to use Chaotic packages
 
 * chaotic-keyring
 
-* chaotic-mirror
+* chaotic-mirrorlist
 
 Now you can add the packagename from the repo.
 
