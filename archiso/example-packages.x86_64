@@ -112,18 +112,16 @@ zsh
 
 #######################################################
 ###  PACKAGES THAT ARE REMOVED AFTER INSTALLATION   ###
-###                 CALAMARES CONFIG                ###
+###             VIA CALAMARES CONFIG                ###
 #######################################################
 
 sddm
 
-i3-gaps
-
+alci-dwm
 alci-calamares
-alci-calamares-config
-#alci-calamares-config-dev
+#alci-calamares-config
+alci-calamares-config-dev
 xterm
-dex
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -132,6 +130,10 @@ dex
 bash-completion
 grub
 os-prober
+dex
+libxinerama
+make
+sxhkd
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -201,4 +203,4 @@ chaotic-mirrorlist
 chaotic-keyring
 
 #test
-picom-ibhagwan-git
+xcursor-sweet

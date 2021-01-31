@@ -181,10 +181,3 @@ sudo pacman -Scc
 
 and ensure they are all gone.
 
-
-# History
-
-The list of packages after a clean installation - no extras
-
-2021-01-29
-https://pastebin.com/kjYyrKZx
