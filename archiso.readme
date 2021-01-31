@@ -17,7 +17,7 @@ sudo pacman -Q archiso and you will know your version
 
 Downgrade to this version via a command in the terminal if you have a higher version.
 
-downgrade archiso
+`sudo downgrade archiso`
 
 and choose the right version. 
 
