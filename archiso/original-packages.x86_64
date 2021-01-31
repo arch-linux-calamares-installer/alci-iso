@@ -133,7 +133,7 @@ os-prober
 dex
 libxinerama
 make
-sxhkd
+xorg-xkill
 
 #######################################################
 ###                    EXTRAS                       ###
