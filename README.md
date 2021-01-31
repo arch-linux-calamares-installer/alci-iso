@@ -4,7 +4,7 @@
 
 Use the correct version for building the iso.
 
-**Read the archiso.readme.**
+**Read the archiso.md.**
 
 Download the content of the github with (use the terminal)
 
