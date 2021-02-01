@@ -119,6 +119,7 @@ zsh
 sddm
 
 alci-dwm
+#alci-dwm-nemesis
 alci-calamares
 alci-calamares-config
 #alci-calamares-config-dev
@@ -181,6 +182,7 @@ xorg-xkill
 ##### and then reboot
 
 #networkmanager
+#network-manager-applet
 
 
 

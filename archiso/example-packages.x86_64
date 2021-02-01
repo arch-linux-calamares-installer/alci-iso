@@ -10,6 +10,7 @@ brltty
 broadcom-wl
 btrfs-progs
 clonezilla
+cloud-init
 crda
 darkhttpd
 ddrescue
@@ -118,6 +119,7 @@ zsh
 sddm
 
 alci-dwm
+#alci-dwm-nemesis
 alci-calamares
 #alci-calamares-config
 alci-calamares-config-dev
@@ -180,6 +182,7 @@ lightdm-gtk-greeter
 ##### and then reboot
 
 networkmanager
+network-manager-applet
 
 
 
