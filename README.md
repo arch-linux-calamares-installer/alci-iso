@@ -185,7 +185,7 @@ Remember to install the mirror and keys.
 
 Run into issues - remove all packages manually with
 
-sudo pacman -Scc
+`sudo pacman -Scc`
 
 and ensure they are all gone.
 
@@ -199,4 +199,30 @@ https://imgur.com/a/EvCN4pm
 
 # Tip
 
-Install networkmanager if you know you will need to use **nmtui** to connect to your wifi after bootup
+Install networkmanager on the iso if you know you will need to use **nmtui** to connect to your wifi after bootup.
+First stop Calamares with Super + Q. Then Super + Enter to have xterm. There you type nmtui and you connect to your wireless.
+
+If you did NOT install it on the iso. These are the steps you can still do.
+
+`setxkbmap be  - I will set my keyboard to azerty`
+
+
+`sudo pacman -Sy - get the pacman databases in`
+
+
+`sudo pacman -S networkmanager - installing the software`
+
+
+`sudo systemctl enable NetworkManager - mind the capital letters`
+
+
+`sudo systemctl start NetworkManager`
+
+
+`nmtui`
+
+Then connect to the wifi.
+
+Then we restart Calamares.
+
+`sudo calamares`
