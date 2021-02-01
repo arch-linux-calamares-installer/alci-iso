@@ -193,3 +193,8 @@ and ensure they are all gone.
 # Tip
 
 When using gdm as display manager remember to delete the file /archiso/airootfs/etc/motd from your system. That files comes originally from Arch Linux.
+
+
+# Tip
+
+Install networkmanager if you know you will need to use **nmtui** to connect to your wifi after bootup
