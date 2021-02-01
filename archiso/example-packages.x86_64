@@ -123,6 +123,7 @@ alci-dwm
 alci-calamares
 #alci-calamares-config
 alci-calamares-config-dev
+xterm
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###

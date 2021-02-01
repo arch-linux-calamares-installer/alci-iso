@@ -123,6 +123,7 @@ alci-dwm
 alci-calamares
 alci-calamares-config
 #alci-calamares-config-dev
+xterm
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -135,6 +136,7 @@ dex
 libxinerama
 make
 xorg-xkill
+xterm
 
 ##### you can also use nmtui from the terminal
 networkmanager
