@@ -146,6 +146,18 @@ xorg-apps
 
 
 
+##### Drivers for graphical cards
+
+#xf86-video-intel
+#xf86-video-amdgpu
+#xf86-video-nouveau
+
+#nvidia
+#nvidia-settings
+#nvidia-utils
+
+
+
 ##### lightdm display manager
 
 lightdm
