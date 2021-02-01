@@ -34,7 +34,7 @@ echo
 	#isoLabel='arcolinux-next-'$arcolinuxVersion'-x86_64.iso'
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 50.1-1"
+	archisoRequiredVersion="archiso 51.1"
 	buildFolder=$HOME"/alci-build"
 	outFolder=$HOME"/Alci-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
@@ -61,6 +61,8 @@ echo
 	echo "You need to install the correct version of Archiso"
 	echo "Use 'sudo downgrade archiso' to do that"
 	echo "or update your system"
+	echo "If a new archiso package comes in and you want to test if you can still build"
+	echo "the iso then change the version in line 37."
 	echo "###################################################################################################"
 	tput sgr0
 	exit 1
@@ -71,7 +73,7 @@ echo "################################################################## "
 tput setaf 2
 echo "Phase 2 :"
 echo "- Checking if archiso is installed"
-echo "- Saving current archiso version to readme"
+echo "- Saving current archiso version to archiso.md"
 echo "- Making mkarchiso verbose"
 tput sgr0
 echo "################################################################## "
@@ -123,8 +125,8 @@ echo
 	fi
 
 	echo
-	echo "Saving current archiso version to readme"
-	sudo sed -i "s/\(^archiso-version=\).*/\1$archisoVersion/" ../archiso.readme
+	echo "Saving current archiso version to archiso.md"
+	sudo sed -i "s/\(^archiso-version=\).*/\1$archisoVersion/" ../archiso.md
 	echo
 	echo "Making mkarchiso verbose"
 	sudo sed -i 's/quiet="y"/quiet="n"/g' /usr/bin/mkarchiso
