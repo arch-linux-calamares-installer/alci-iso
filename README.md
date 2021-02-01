@@ -83,6 +83,8 @@ We have added an example called example-packages.x86_64.
 
 Use meld to compare differences.
 
+If you know you are going to need drivers for graphical cards or NICs put them on the iso.
+I am thinking about xf86-video-intel, nvidia or other drivers.
 
 # Build process
 
