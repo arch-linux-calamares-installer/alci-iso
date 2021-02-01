@@ -126,11 +126,17 @@ https://www.arcolinuxiso.com/arch-linux-calamares-installer/
 
 # After installation
 
-Activate the display manager of your choice
+We have added a script to activate your display manager by default.
+If you reboot you will boot into a graphical environment.
 
-`sudo systemctl enable lightdm`
+If you install more than one display manager they will overrule each other.
+
+
+If you are still in the terminal then activate the display manager of your choice manually.
 
 `sudo systemctl enable gdm`
+
+`sudo systemctl enable lightdm`
 
 `sudo systemctl enable sddm`
 
