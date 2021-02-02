@@ -151,7 +151,7 @@ network-manager-applet
 
 #xorg-server
 #xorg-apps
-
+#neofetch
 
 
 ##### Drivers for graphical cards
