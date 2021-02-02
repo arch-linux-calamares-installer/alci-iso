@@ -137,6 +137,7 @@ libxinerama
 make
 xorg-xkill
 xterm
+xorg-xrdb
 
 ##### you can also use nmtui from the terminal
 networkmanager
