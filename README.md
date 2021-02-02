@@ -199,8 +199,17 @@ https://imgur.com/a/EvCN4pm
 
 # Tip
 
-Install networkmanager on the iso if you know you will need to use **nmtui** to connect to your wifi after bootup.
-First stop Calamares with Super + Q. Then Super + Enter to have xterm. There you type nmtui and you connect to your wireless.
+Internet is NOT required for ALCI. Calamares is only using the internet to check where you live to put the red dot correctly on the world map (geoip-. It will not download anything. The list you created in the packages.x86_64 file will be installed.
+
+On demand of our users we have added 3 links to the archiso folder so that in the live environment they will have network manager.
+
+/archiso/airootfs/etc/systemd/system/multi-user.target.wants/NetworkManager.service
+/archiso/airootfs/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service
+/archiso/airootfs/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service
+
+If you do not use Networkmanager, you can delete them. You can also keep them as they are pointing to services you have not installed. The links will have no effect at all.
+
+Remember there is still **nmtui** if the gui Networkmanager fails you in some way.
 
 If you did NOT install it on the iso. These are the steps you can still do.
 
