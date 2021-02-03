@@ -121,6 +121,7 @@ sddm
 alci-dwm
 #alci-dwm-nemesis
 alci-calamares
+#alci-calamares-dev
 alci-calamares-config
 #alci-calamares-config-dev
 xterm
