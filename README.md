@@ -23,14 +23,17 @@ In order to switch quickly we copy/paste the content of the other files in archi
     arcolinux-chaotic-pacman.conf
         contains both ArcoLinux and chaotic-aur
         needs extra packages - mirrorlist and keys
+        extra line in pacman-init.service
 
     arcolinux-pacman.conf
         contains only ArcoLinux
         needs extra packages - mirrorlist and keys
+        extra line in pacman-init.service
 
     chaotic-pacman.conf
         contains only chaotic-aur
         needs extra packages - mirrorlist and keys
+        extra line in pacman-init.service
 
     no-extra-pacman.conf
         as vanilla as Arch Linux
@@ -47,15 +50,16 @@ It will not be used to build the iso.
 
 ## ArcoLinux keys and mirror
 
-Since this is an ArcoLinux project after all, the ArcoLinux keys are in by default.
-Want a vanilla Arch Linux without any ArcoLinux packages then you do not need our keys.
-Delete the ArcoLinux line in 
+Add the ArcoLinux keys and Arcolinux mirrors to the packages.x86_64.
+Add the ArcoLinux line in 
 `/archiso/airootfs/etc/systemd/system/pacman-init.service`
-and they will not be installed.
+
 
 ## Chaotic keys and mirror
 
-If you want to include packages from the Chaotic-aur repo then add its packages to archiso/packages.x86-64.
+Add the Chaotic keys and Chaotic mirrors to the packages.x86_64.
+Add the Chaotic line in 
+`/archiso/airootfs/etc/systemd/system/pacman-init.service`
 
 
 # Archiso/packages.x86_64
@@ -88,9 +92,21 @@ I am thinking about xf86-video-intel, nvidia or other drivers.
 
 # Build process
 
-Install these two packages on your system if you want to include Chaotic packages on the iso
+Install these two packages on your system if you want to include **Chaotic packages** on the iso
 
 `sudo pacman -S chaotic-mirror chaotic-keyring`
+
+If not on ArcoLinux you can install them from AUR.
+
+
+Install these two packages on your system if you want to include **ArcoLinux packages** on the iso
+
+`sudo pacman -S arcolinux-mirrorlist-git arcolinux-keyring`
+
+If not on ArcoLinux you can install from the ALCI-repo with sudo pacman -U.
+
+https://github.com/arcolinuxiso/alci_repo
+
 
 Accept the **key of Pedro** from Chaotic during installation or install chaotic-keyring.
 
