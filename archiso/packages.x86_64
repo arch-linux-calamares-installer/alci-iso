@@ -116,20 +116,20 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-sddm
-
 alci-dwm
 #alci-dwm-nemesis
 alci-calamares
 #alci-calamares-dev
 alci-calamares-config
 #alci-calamares-config-dev
+#alci-calamares-pure
 xterm
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
+sddm
 bash-completion
 grub
 os-prober
@@ -141,8 +141,8 @@ xterm
 xorg-xrdb
 
 ##### you can also use nmtui from the terminal
-networkmanager
-network-manager-applet
+#networkmanager
+#network-manager-applet
 
 #######################################################
 ###                    EXTRAS                       ###

@@ -15,19 +15,13 @@
 #
 ###############################################################################
 
-package=sddm
-if pacman -Qs $package > /dev/null ; then
-    ln -sf /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.service
-fi
-package=gdm
-if pacman -Qs $package > /dev/null ; then
-    ln -sf /usr/lib/systemd/system/gdm.service /etc/systemd/system/display-manager.service
-fi
-package=lxdm
-if pacman -Qs $package > /dev/null ; then
-    ln -sf /usr/lib/systemd/system/lxdm.service /etc/systemd/system/display-manager.service
-fi
-package=lightdm
-if pacman -Qs $package > /dev/null ; then
-  ln -sf /usr/lib/systemd/system/lightdm.service /etc/systemd/system/display-manager.service
-fi
+pacman -Rs --noconfirm sddm
+pacman -Rs --noconfirm bash-completion
+pacman -Rs --noconfirm grub
+pacman -Rs --noconfirm os-prober
+pacman -Rs --noconfirm dex
+pacman -Rs --noconfirm libxinerama
+pacman -Rs --noconfirm make
+pacman -Rs --noconfirm xorg-xkill
+pacman -Rs --noconfirm xterm
+pacman -Rs --noconfirm xorg-xrdb

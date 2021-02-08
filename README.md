@@ -1,4 +1,4 @@
-# DEVELOPMENT
+# ALCI STABLE
 
 # Arch Linux Calamares Installer or ALCI
 
