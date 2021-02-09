@@ -95,7 +95,7 @@ Use the scripts from this folder:
 
 Use script 30 and it will clean your pacman cache and redownload every package it needs.
 
-Use script 40 to use your current pacman cache - it will only download what is needed
+Use script 40 to use your current pacman cache - it will only download what is needed.
 
 You will find the iso in this folder:
 
