@@ -10,34 +10,17 @@ Download the content of the github with (use the terminal)
 
 `git clone https://github.com/arcolinuxiso/alci-iso`
 
-# Pacman.conf in archiso
+# Pacman.conf in archiso folder
 
 Only the archiso/pacman.conf will be used to download your packages.
 
-We created several versions of pacman.conf to be able to switch quickly.
+You can activate more sources besides Arch Linux repos
 
-In order to avoid future questions we activated multilib by default on all except no-extra-pacman.conf.
+    arcolinux
+    chaotic
+    your own local repo
 
-In order to switch quickly we copy/paste the content of the other files in archiso/pacman.conf.
 
-    arcolinux-chaotic-pacman.conf
-        contains both ArcoLinux and chaotic-aur
-        needs extra packages - mirrorlist and keys
-        extra line in pacman-init.service
-
-    arcolinux-pacman.conf
-        contains only ArcoLinux
-        needs extra packages - mirrorlist and keys
-        extra line in pacman-init.service
-
-    chaotic-pacman.conf
-        contains only chaotic-aur
-        needs extra packages - mirrorlist and keys
-        extra line in pacman-init.service
-
-    no-extra-pacman.conf
-        as vanilla as Arch Linux
-        needs NO extra packages - mirrorlist and keys - no multilib
 
 # Pacman.conf in archiso/airootfs/etc/
 
@@ -80,12 +63,8 @@ If you plan to use Chaotic packages
 
 * chaotic-mirrorlist
 
-Now you can add the packagename from the repo.
+You can even add packages from your own personal local repo.
 
-We have added a backup of the original file called original.packages.x86_64.
-We have added an example called example-packages.x86_64.
-
-Use meld to compare differences.
 
 If you know you are going to need drivers for graphical cards or NICs put them on the iso.
 I am thinking about xf86-video-intel, nvidia or other drivers.
@@ -108,8 +87,6 @@ If not on ArcoLinux you can install from the ALCI-repo with sudo pacman -U.
 https://github.com/arcolinuxiso/alci_repo
 
 
-Accept the **key of Pedro** from Chaotic during installation or install chaotic-keyring.
-
 After editing the necessary files you can start building.
 
 Use the scripts from this folder:
@@ -122,7 +99,7 @@ Use script 40 to use your current pacman cache - it will only download what is n
 
 You will find the iso in this folder:
 
- ~/Alci-Out
+ ~/Alci-Iso-Out
 
 Burn it with etcher or other tools and use it.
 
@@ -137,7 +114,7 @@ https://www.youtube.com/playlist?list=PLlloYVGq5pS4vhYQuLikS8dhDjk6xaiXH
 
 Is documented on 
 
-https://www.arcolinuxiso.com/arch-linux-calamares-installer/
+https://www.alci.online
 
 
 # After installation
@@ -145,7 +122,11 @@ https://www.arcolinuxiso.com/arch-linux-calamares-installer/
 We have added a script to activate your display manager by default.
 If you reboot you will boot into a graphical environment.
 
-If you install more than one display manager they will overrule each other.
+If you did not install a desktop environment on the iso you can still do so by going to 
+TTY and installing one. SDDM stays after installation.
+
+If you install more than one display manager they will overrule each other. SDDM will always loose
+from gdm, lightdm or lxdm.
 
 
 If you are still in the terminal then activate the display manager of your choice manually.
@@ -156,6 +137,8 @@ If you are still in the terminal then activate the display manager of your choic
 
 `sudo systemctl enable sddm`
 
+`sudo systemctl enable lxdm`
+
 Get the pacman databases in
 
 `sudo pacman -Sy`
@@ -163,22 +146,6 @@ Get the pacman databases in
 or update immediately
 
 `sudo pacman -Syyu`
-
-
-# Arch Linux users
-
-In order to get the keys in from ArcoLinux and Chaotic.
-
-ArcoLinux
-
-Both packages are on github. Keys and mirrors.
-https://github.com/arcolinuxiso/alci_repo/tree/master/x86_64
-Download them and install them via pacman -U ...
-
-
-Chaotic
-
-Both packages are on the AUR. Keys and mirrors.
 
 
 # Tip
@@ -215,7 +182,9 @@ https://imgur.com/a/EvCN4pm
 
 # Tip
 
-Internet is NOT required for ALCI. Calamares is only using the internet to check where you live to put the red dot correctly on the world map (geoip-. It will not download anything. The list you created in the packages.x86_64 file will be installed.
+Internet is NOT required for ALCI. Calamares is only using the internet to check where you live to put the red dot correctly on the world map (geoip). Calamares will**not download anything**. 
+
+The list you created in the packages.x86_64 file will be installed on the iso and on your future system.
 
 On demand of our users we have added 3 links to the archiso folder so that in the live environment they will have network manager.
 
