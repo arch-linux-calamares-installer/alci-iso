@@ -2,7 +2,7 @@
 
 # Arch Linux Calamares Installer or ALCI
 
-Use the correct version for building the iso.
+Use the correct version of Archiso to build the iso.
 
 **Read the archiso.md.**
 
@@ -49,7 +49,7 @@ Add the Chaotic line in
 
 Only the archiso/packages.x86-64 files will be used.
 
-Check the bottom of the file and install the necessary packages
+Add more packages at the bottom of the file
 
 If you plan to use ArcoLinux packages
 
@@ -82,12 +82,12 @@ Install these two packages on your system if you want to include **ArcoLinux pac
 
 `sudo pacman -S arcolinux-mirrorlist-git arcolinux-keyring`
 
-If not on ArcoLinux you can install from the ALCI-repo with sudo pacman -U.
+If not on ArcoLinux you can download the package from the alci_repo with sudo pacman -U.
 
 https://github.com/arcolinuxiso/alci_repo
 
 
-After editing the necessary files you can start building.
+After editing the necessary files (pacman.conf and packages.x86_64) you can start building.
 
 Use the scripts from this folder:
 
