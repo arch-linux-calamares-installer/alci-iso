@@ -183,7 +183,7 @@ Both packages are on the AUR. Keys and mirrors.
 
 # Tip
 
-Sometime a "proc" folder stays mounted.
+Sometimes a "proc" folder stays mounted.
 
 Unmount it with this
 
