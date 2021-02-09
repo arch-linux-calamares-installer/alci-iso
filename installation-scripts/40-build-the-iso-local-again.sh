@@ -281,10 +281,10 @@ echo
 # 	echo "########################"
 # 	md5sum $isoLabel | tee $isoLabel.md5
 # 	echo
-# 	echo "Moving pkglist.x86_64.txt"
-# 	echo "########################"
-# 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/$isoLabel".pkglist.txt"
-#
+ 	echo "Moving pkglist.x86_64.txt"
+ 	echo "########################"
+ 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/pkglist.txt
+
 
 #echo
 #echo "##################################################################"

@@ -15,13 +15,4 @@
 #
 ###############################################################################
 
-pacman -Rs --noconfirm sddm
-pacman -Rs --noconfirm bash-completion
-pacman -Rs --noconfirm grub
-pacman -Rs --noconfirm os-prober
-pacman -Rs --noconfirm dex
-pacman -Rs --noconfirm libxinerama
-pacman -Rs --noconfirm make
-pacman -Rs --noconfirm xorg-xkill
-pacman -Rs --noconfirm xterm
-pacman -Rs --noconfirm xorg-xrdb
+#if necessary we can use this script too
