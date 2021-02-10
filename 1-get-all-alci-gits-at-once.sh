@@ -36,7 +36,7 @@ for name in "${directories[@]}"; do
 	count=$[count+1]
 	tput setaf 1;echo "Github "$count;tput sgr0;
 	# if there is no folder then make one
-	git clone https://github.com/arcolinuxiso/$name
+	git clone https://github.com/arch-linux-calamares-installer/$name
 	echo "#################################################"
 	echo "################  "$(basename `pwd`)" done"
 	echo "#################################################"
