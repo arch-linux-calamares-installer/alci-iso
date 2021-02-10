@@ -125,8 +125,8 @@ If you reboot you will boot into a graphical environment.
 If you did not install a desktop environment on the iso you can still do so by going to 
 TTY and installing one. SDDM stays after installation.
 
-If you install more than one display manager they will overrule each other. SDDM will always loose
-from gdm, lightdm or lxdm.
+If you install more than one display manager they will overrule each other. SDDM will always lose
+to gdm, lightdm or lxdm.
 
 
 If you are still in the terminal then activate the display manager of your choice manually.
