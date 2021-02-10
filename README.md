@@ -84,7 +84,7 @@ Install these two packages on your system if you want to include **ArcoLinux pac
 
 If not on ArcoLinux you can download the package from the alci_repo with sudo pacman -U.
 
-https://github.com/arcolinuxiso/alci_repo
+https://github.com/arch-linux-calamares-installer/alci_repo
 
 
 After editing the necessary files (pacman.conf and packages.x86_64) you can start building.
