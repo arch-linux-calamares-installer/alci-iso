@@ -158,8 +158,11 @@ xorg-xrdb
 
 ##### Drivers for graphical cards
 
-#driver for virtualbox and other vms
-xf86-video-vmware
+#driver for virtualbox - xf86-video-vmware is dependency
+#systemctl enable vboxservice
+#systemctl start vboxservice
+#to have fullscreen
+virtualbox-guest-utils
 
 #xf86-video-intel
 #xf86-video-amdgpu
