@@ -19,7 +19,7 @@ dhcpcd
 diffutils
 dmraid
 dnsmasq
-#dosfstools
+dosfstools
 edk2-shell
 efibootmgr
 espeakup
@@ -244,6 +244,3 @@ virtualbox-guest-utils
 #timeshift
 #grub-btrfs
 #timeshift-autosnap
-
-#fix for issue new version of dosfstools
-dosfstools
