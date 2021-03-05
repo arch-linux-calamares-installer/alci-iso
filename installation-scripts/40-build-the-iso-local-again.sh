@@ -284,7 +284,8 @@ echo
 # 	echo
  	echo "Moving pkglist.x86_64.txt"
  	echo "########################"
- 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/pkglist.txt
+	rename=$(date +%Y-%m-%d)
+ 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/archlinux-$rename-pkglist.txt
 
 
 #echo
