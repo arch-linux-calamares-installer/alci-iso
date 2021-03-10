@@ -175,6 +175,13 @@ and ensure they are all gone.
 
 # Tip
 
+When testing out the ALCI in virtualbox, you can use the alias 
+evb to enable and start virtualbox. As a result you can use your full resolution.
+
+
+
+# Tip
+
 When using gdm as display manager remember to delete the file /archiso/airootfs/etc/motd from your system. That files comes originally from Arch Linux.
 To avoid waiting for every login and this nice look.
 https://imgur.com/a/EvCN4pm
