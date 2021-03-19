@@ -140,6 +140,7 @@ make
 xorg-xkill
 xterm
 xorg-xrdb
+mkinitcpio-openswap
 
 ##### you can also use nmtui from the terminal
 #networkmanager
