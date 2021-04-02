@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 alsa-utils
 amd-ucode
+archinstall
 arch-install-scripts
 b43-fwcutter
 base
@@ -33,7 +34,6 @@ gpart
 gpm
 gptfdisk
 grml-zsh-config
-haveged
 hdparm
 intel-ucode
 ipw2100-fw
@@ -58,6 +58,7 @@ memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+modemmanager
 mtools
 nano
 nbd
@@ -83,6 +84,7 @@ rxvt-unicode-terminfo
 sdparm
 sg3_utils
 smartmontools
+sof-firmware
 squashfs-tools
 sudo
 syslinux
@@ -94,6 +96,7 @@ testdisk
 tmux
 udftools
 usb_modeswitch
+usbmuxd
 usbutils
 vim
 vpnc
