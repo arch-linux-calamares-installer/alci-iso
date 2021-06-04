@@ -83,6 +83,7 @@ partimage
 pcsclite
 ppp
 pptpclient
+pv
 qemu-guest-agent
 reflector
 reiserfsprogs
@@ -109,6 +110,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
+virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
 wireless_tools
@@ -176,7 +178,7 @@ mkinitcpio-openswap
 #systemctl enable vboxservice
 #systemctl start vboxservice
 #to have fullscreen
-virtualbox-guest-utils
+#virtualbox-guest-utils
 
 #xf86-video-intel
 #xf86-video-amdgpu
