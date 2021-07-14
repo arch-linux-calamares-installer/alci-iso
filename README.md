@@ -73,7 +73,7 @@ I am thinking about xf86-video-intel, nvidia or other drivers.
 
 Install these two packages on your system if you want to include **Chaotic packages** on the iso
 
-`sudo pacman -S chaotic-mirror chaotic-keyring`
+`sudo pacman -S chaotic-mirrorlist chaotic-keyring`
 
 If not on ArcoLinux you can install them from AUR.
 
