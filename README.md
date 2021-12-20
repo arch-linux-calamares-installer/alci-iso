@@ -34,15 +34,13 @@ It will not be used to build the iso.
 ## ArcoLinux keys and mirror
 
 Add the ArcoLinux keys and Arcolinux mirrors to the packages.x86_64.
-Add the ArcoLinux line in 
-`/archiso/airootfs/etc/systemd/system/pacman-init.service`
+The pacman-init service  at etc/systemd/system/pacman-init.service will add any keys present.
 
 
 ## Chaotic keys and mirror
 
 Add the Chaotic keys and Chaotic mirrors to the packages.x86_64.
-Add the Chaotic line in 
-`/archiso/airootfs/etc/systemd/system/pacman-init.service`
+The pacman-init service  at etc/systemd/system/pacman-init.service will add any keys present.
 
 
 # Archiso/packages.x86_64

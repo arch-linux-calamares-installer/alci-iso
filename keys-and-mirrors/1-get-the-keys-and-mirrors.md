@@ -1,6 +1,6 @@
 We recommend you get the ASA or ArcoLinux Spices Application.
 
-We are sure that is always working and maintained.
+We are sure that it will always work in the future.
 
 We use the tool to turn any Arch Linux system into an ArcoLinux system.
 
