@@ -20,6 +20,7 @@ directories=(
 alci-calamares-config/
 alci-calamares-config-btrfs/
 alci-calamares-config-dev/
+alci-calamares-config-hardened/
 alci-calamares-config-lts/
 alci-calamares-config-pure/
 alci-calamares-config-zen/
@@ -27,6 +28,7 @@ alci-dwm/
 alci-dwm-nemesis/
 alci-iso/
 alci-iso-dev/
+alci-iso-hardened/
 alci-iso-lts/
 alci-iso-pure/
 alci-iso-zen/
