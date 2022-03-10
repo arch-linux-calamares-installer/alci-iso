@@ -139,6 +139,7 @@ alci-calamares-config
 #alci-calamares-config-dev
 #alci-calamares-config-lts
 #alci-calamares-config-pure
+#alci-calamares-config-xanmod-edge
 #alci-calamares-config-zen
 xterm
 
@@ -148,6 +149,7 @@ xterm
 
 sddm
 bash-completion
+grub
 os-prober
 dex
 libxinerama
@@ -221,8 +223,6 @@ mkinitcpio-openswap
 #test
 #xfce4
 #xfce4-goodies
-#neofetch
-
 
 
 ##### want to add/use the ArcoLinux repos
