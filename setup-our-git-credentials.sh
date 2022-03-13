@@ -9,6 +9,7 @@
 #tput setaf 6 = cyan
 #tput setaf 7 = gray
 #tput setaf 8 = light blue
+#
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -40,7 +41,7 @@
 #https://blog.nillsf.com/index.php/2021/05/27/github-sso-using-password-protected-ssh-keys
 
 project=$(basename `pwd`)
-githubdir="arcolinux"
+githubdir="arch-linux-calamares-installer"
 echo "-----------------------------------------------------------------------------"
 echo "this is project https://github.com/$githubdir/$project"
 echo "-----------------------------------------------------------------------------"
@@ -80,7 +81,7 @@ case $CHOICE in
 			sudo git config --system core.editor nano
 			#git config --global credential.helper cache
 			#git config --global credential.helper 'cache --timeout=32000'
-      git remote set-url origin git@github.com-arc:$githubdir/$project
+      git remote set-url origin git@github.com:$githubdir/$project
       echo
       echo "Everything set"
       ;;
