@@ -34,6 +34,8 @@ echo "################################################################"
 tput sgr0
 echo
 
+sudo pacman -Sy git --noconfirm --needed
+
 [ -d $HOME"/DATA" ] || mkdir -p $HOME"/DATA"
 cd ~/DATA
 git clone https://github.com/erikdubois/arcolinux-nemesis
