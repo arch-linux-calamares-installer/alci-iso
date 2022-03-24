@@ -261,3 +261,4 @@ mkinitcpio-openswap
 #timeshift
 #grub-btrfs
 #timeshift-autosnap
+git
