@@ -10,7 +10,7 @@ broadcom-wl
 btrfs-progs
 clonezilla
 cloud-init
-crda
+#crda
 cryptsetup
 darkhttpd
 ddrescue
