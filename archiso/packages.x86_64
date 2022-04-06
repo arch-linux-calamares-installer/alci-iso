@@ -10,7 +10,6 @@ broadcom-wl
 btrfs-progs
 clonezilla
 cloud-init
-#crda
 cryptsetup
 darkhttpd
 ddrescue
@@ -51,6 +50,7 @@ libusb-compat
 linux
 linux-atm
 linux-firmware
+linux-firmware-marvell
 livecd-sounds
 lsscsi
 lvm2
@@ -150,7 +150,6 @@ xterm
 
 sddm
 bash-completion
-grub
 os-prober
 dex
 libxinerama
@@ -224,6 +223,7 @@ mkinitcpio-openswap
 #test
 #xfce4
 #xfce4-goodies
+#neofetch
 
 
 ##### want to add/use the ArcoLinux repos
