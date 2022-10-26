@@ -18,6 +18,7 @@ echo "Fill the array with the original folders first"
 
 directories=(
 alci-calamares-config/
+alci-calamares-config-btrfs/
 alci-calamares-config-dev/
 alci-calamares-config-hardened/
 alci-calamares-config-lts/
