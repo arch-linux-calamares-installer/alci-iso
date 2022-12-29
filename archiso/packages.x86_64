@@ -38,8 +38,6 @@ grub
 hdparm
 hyperv
 intel-ucode
-#ipw2100-fw
-#ipw2200-fw
 irssi
 iw
 iwd
@@ -62,6 +60,7 @@ man-pages
 mc
 mdadm
 memtest86+
+memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -144,7 +143,7 @@ alci-calamares-config
 #alci-calamares-config-hardened
 #alci-calamares-config-lts
 #alci-calamares-config-pure
-#alci-calamares-config-xanmod-edge
+#alci-calamares-config-xanmod
 #alci-calamares-config-zen
 xterm
 
