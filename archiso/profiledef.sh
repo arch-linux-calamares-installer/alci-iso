@@ -27,4 +27,5 @@ file_permissions=(
   ["/usr/local/bin/alci-make-a-pure-arch"]="0:0:755"
   ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
   ["/usr/local/bin/get-nemesis-on-alci"]="0:0:755"
+  ["/usr/local/bin/fix-keys"]="0:0:755"
 )
