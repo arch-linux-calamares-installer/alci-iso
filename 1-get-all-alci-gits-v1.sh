@@ -27,6 +27,7 @@ alci-calamares-config-xanmod/
 alci-calamares-config-zen/
 alci-dwm/
 alci-dwm-nemesis/
+alci-grub-theme/
 alci-iso/
 alci-iso-dev/
 alci-iso-hardened/
