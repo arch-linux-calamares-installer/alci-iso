@@ -265,3 +265,6 @@ mkinitcpio-openswap
 #grub-btrfs
 #timeshift-autosnap
 git
+
+#grub theme
+alci-grub-theme-git
