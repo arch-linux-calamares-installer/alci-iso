@@ -1,0 +1,11 @@
+
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = glibc
+
+[Action]
+Description = Gera locale-gen
+When = PostTransaction
+Exec = /usr/bin/locale-gen
