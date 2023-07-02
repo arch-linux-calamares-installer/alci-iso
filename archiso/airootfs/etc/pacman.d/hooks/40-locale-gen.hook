@@ -6,6 +6,6 @@ Type = Package
 Target = glibc
 
 [Action]
-Description = Gera locale-gen
+Description = Generate locale-gen
 When = PostTransaction
 Exec = /usr/bin/locale-gen
