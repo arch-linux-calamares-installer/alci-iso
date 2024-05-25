@@ -30,4 +30,5 @@ file_permissions=(
   ["/usr/local/bin/alci-displaymanager-check"]="0:0:755"
   ["/usr/local/bin/get-nemesis-on-alci"]="0:0:755"
   ["/usr/local/bin/fix-keys"]="0:0:755"
+  ["/usr/local/bin/get-chadwm"]="0:0:755"
 )
