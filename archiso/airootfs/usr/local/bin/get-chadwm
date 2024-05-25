@@ -31,6 +31,7 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 ##################################################################################################################
 
+sudo pacman -Syyu
 sudo pacman -S wget --noconfirm --needed
 sudo pacman -S jq --noconfirm --needed
 arco_repo_db=$(wget -qO- https://api.github.com/repos/arcolinux/arcolinux_repo/contents/x86_64)
@@ -116,6 +117,7 @@ func_install_chadwm() {
     alacritty
     archlinux-logout-git
     arcolinux-chadwm-git
+    arcolinux-powermenu-git
     dash
     dmenu
     eww
@@ -123,7 +125,7 @@ func_install_chadwm() {
     lxappearance
     picom
     polkit-gnome
-    rofi
+    rofi-lbonn-wayland
     scrot
     sxhkd
     thunar
