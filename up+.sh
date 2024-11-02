@@ -37,6 +37,13 @@ echo "Deleting the work folder if one exists"
 echo "Checking for newer files online first"
 git pull
 
+workdir=$(pwd)
+echo "getting get-chadwm"
+wget https://raw.githubusercontent.com/arcolinux/arcolinux-system-config/refs/heads/master/usr/local/bin/get-chadwm -O $workdir/archiso/airootfs/usr/local/bin/get-chadwm
+
+
+
+
 # Below command will backup everything inside the project folder
 git add --all .
 
